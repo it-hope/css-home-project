@@ -1,0 +1,332 @@
+
+body {
+    height: 4500px;
+    width: 1360px;
+}
+.container {
+    width: 100%;
+}
+.header { 
+    background: url(../Portfolio/BG.jpg) center no-repeat;
+    background-size: cover; 
+    width: 1360px; 
+    height: 717px;
+} 
+.logo {
+    width: 130px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav__item {
+color: white;
+border-bottom: 3px solid transparent;
+transition: all .3s;
+text-decoration: none; 
+margin-right: 55px;
+margin-top: -30px;
+font-family: 'Open Sans', sans-serif;
+}
+.nav__item:hover {
+    border-bottom: 3px solid white;
+}   
+.info {
+    padding: 20px 0;
+    width: 100%;
+}
+.info__inner {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+.info__title {
+    font-family: 'Lora', serif;
+    color: white;
+    margin-top: 180px;
+    margin-left: 104px;
+    font-size: 43pt;
+   display: flex;
+   justify-content: center;  
+}
+.info__content {
+    font-family: 'Open Sans';
+    margin-left: 470px;
+    margin-top: 45px;
+    color: white;
+    font-size: 17pt;   
+}
+.info__btn {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 17pt;
+}
+button {
+    width: 290px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 60px;
+    background-color: rgb(0, 153, 255);
+    margin-left: 570px;
+    margin-bottom: 150px;
+    margin-top: 90px;
+    border: none;
+    
+}
+.services {
+    width: 1400px;
+    height: 537px;
+    margin-top: 73px;
+}
+.services__our {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 30pt;
+   display: flex;
+   justify-content: center;
+}
+.line {
+    border-top: 3px solid  rgb(0, 153, 255);
+    margin-top: 25px;
+    margin-left: 630px;
+    width: 135px;
+}
+.icon1 {
+    margin-top: 100px;
+    margin-left: 210px;
+    margin-bottom: 30px;
+}
+.icon2 {
+    margin-top: 100px;
+    margin-left: 210px;
+    margin-bottom: 30px;
+}
+.icon3 {
+    margin-top: 100px;
+    margin-left: 190px;
+    margin-bottom: 30px;
+}
+.icon4 {
+    margin-top: 100px;
+    margin-left: 190px;
+    margin-bottom: 30px;
+}
+.serv {
+    display: flex;
+    justify-content: center;
+}
+
+.serv__item {
+    font-family: 'Lora', serif;
+    color: black;
+    margin-right: 100px;
+    margin-left:  100px;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    transition: all .3s;
+    text-decoration: none;
+}
+.icon {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.icon__text {
+   font-family: 'Open Sans', light; 
+   color: rgba(90, 86, 86, 0.664);
+    margin-right: 30px;
+    margin-left: 40px;
+    width: 270px;  
+}
+.portfolio {
+    height: 1150px;
+}
+.portfolio--title {
+     font-family: 'Lora', serif;
+    color: black;
+    font-size: 30pt;
+   display: flex;
+   justify-content: center;
+}
+.portf {
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: 425px;  
+}
+.portf__item {
+font-family: 'Open Sans';
+color: rgb(106, 111, 112);
+border-bottom: 3px solid transparent;
+transition: all .3s;
+text-decoration: none; 
+}
+.portf__item:hover {
+    border-bottom: 3px solid rgb(139, 162, 238);
+    color: rgb(139, 162, 238);
+}  
+.portf--all {
+    margin-top: 40px;
+    margin-left: 115px;
+}
+.show__btn {
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        color: white;
+        padding: 15px 50px;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 17pt;
+}
+.brands--title {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 30pt;
+   display: flex;
+   justify-content: center;
+   margin-top: 144px;
+}
+.brands--icons {
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.testimonials--title {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 30pt;
+   display: flex;
+   justify-content: center;
+   margin-top: 190px;
+}
+.testimonials--slides {
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.footer {
+    background-color: rgb(59, 57, 71);
+    width: 1400px;
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 865px;
+}
+.menu__item {
+color: white;
+border-bottom: 3px solid transparent;
+transition: all .3s;
+text-decoration: none; 
+margin-right: 50px;
+margin-top: 86px;
+}
+.menu__item:hover {
+    border-bottom: 3px solid white;
+}
+.Contact { 
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-bottom: 90px;
+    color: white;
+}
+.Contact--title {
+    margin-top: -55px;
+  color: white;
+  font-size: 17pt;
+  width: 180px;
+}
+.Contact--Adress {
+    margin-top: 120px;
+    padding-bottom: 40px;
+}
+.Contact--Email {
+    padding-top: 40px;
+}
+.forma {
+    font-family: 'Open Sans';
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 570px;
+    margin-top: -450px;
+    font-size: 14pt;
+}
+.form--text {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 14pt;
+}
+.sub {
+    display: flex;
+    justify-content: center;
+}
+.sub__button {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    width: 290px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: rgb(0, 153, 255);
+    border: none; 
+    color: white;
+    font-size: 15pt;
+    margin-bottom: 70px;  
+}
+input, textarea {
+    height: 40px;
+    background-color: rgb(59, 57, 71);
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+input:hover {
+        border-bottom: 2px solid rgb(102, 138, 238);
+    }   
+textarea:hover {
+        border-bottom: 2px solid rgb(102, 138, 238);
+    }  
+textarea {
+    height: 100px;
+}
+.Contact p {
+    color: gray;
+    font-size: 12pt;
+}
+.up {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.bazzad {
+    margin-top: 0px;
+    margin-left: 140px;
+    margin-bottom: 40px;
+}
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    margin-left: 1200px;
+    margin-bottom: 40px;
+}
