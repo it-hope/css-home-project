@@ -41,19 +41,19 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy</p>
               </div>
               <div class="servise-block">
-                <img src="img/icon2.png" alt="" />
+                <img src="img/icon2.png" alt="icon2" />
                 <p class="p-services">Web Design</p>
                 <hr />
                 <p>Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy</p>
               </div>
               <div class="servise-block">
-                <img src="img/icon3.png" alt="" />
+                <img src="img/icon3.png" alt="icon3" />
                 <p class="p-services">Branding</p>
                 <hr />
                 <p>Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy</p>
               </div>
               <div class="servise-block">
-                <img src="img/icon4.png" alt="" />
+                <img src="img/icon4.png" alt="icon4" />
                 <p class="p-services">Illustrations</p>
                 <hr />
                 <p>Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy</p>
@@ -74,12 +74,12 @@
 
             </div>
             <div class="img-portfolio">
-              <img src="img/Portfolio1.jpg" alt="">
-              <img src="img/Portfolio2.jpg" alt="">
-              <img src="img/Portfolio3.jpg" alt="">
-              <img src="img/Portfolio4.jpg" alt="">
-              <img src="img/Portfolio5.jpg" alt="">
-              <img src="img/Portfolio6.jpg" alt="">
+              <img src="img/Portfolio1.jpg" alt="Portfolio1">
+              <img src="img/Portfolio2.jpg" alt="Portfolio2">
+              <img src="img/Portfolio3.jpg" alt="Portfolio3">
+              <img src="img/Portfolio4.jpg" alt="Portfolio4">
+              <img src="img/Portfolio5.jpg" alt="Portfolio5">
+              <img src="img/Portfolio6.jpg" alt="Portfolio6">
             </div>
             <button class="button-portfolio">SHOW MORE</button>
       </div>
@@ -87,28 +87,39 @@
         <h3>Recent Brands we’ve worked with</h3>
         <hr class="hr-h2" />
         <div class="img-brands">
-          <img class="img-brands-hover"  src="img/layer1.png" alt="">
-          <img class="img-brands-hover"  src="img/layer2.png" alt="">
-          <img class="img-brands-hover"  src="img/layer3.png" alt="">
-          <img class="img-brands-hover"  src="img/layer4.png" alt="">
-          <img class="img-brands-hover"  src="img/layer5.png"  alt="">
-          <img class="img-brands-hover"  src="img/layer6.png" alt="">
+          <img class="img-brands-hover"  src="img/layer1.png" alt="layer1">
+          <img class="img-brands-hover"  src="img/layer2.png" alt="layer2">
+          <img class="img-brands-hover"  src="img/layer3.png" alt="layer3">
+          <img class="img-brands-hover"  src="img/layer4.png" alt="layer4">
+          <img class="img-brands-hover"  src="img/layer5.png"  alt="layer5">
+          <img class="img-brands-hover"  src="img/layer6.png" alt="layer6">
         </div>
       </div>
       <div class="aboutus">
         <h3>See what others are saying about us</h3>
         <hr class="hr-h2" />
         <div class="container-aboutUs">
-            <div >
-              <img class="img-aboutus" src="img/aboutUs1.png" alt="">
-              <img class="img-aboutus" src="img/aboutUs2.png" alt="">
-              <img class="img-aboutus" src="img/aboutUs3.png" alt="">
+            <div class="slide">
+              <img class="img-aboutus" src="img/aboutUs1.png" alt="fotoSlide1">
+            </div>
+            <div class="slide">
+              <img class="img-aboutus" src="img/aboutUs2.png" alt="fotoSlide2">
+            </div>
+            <div class="slide">
+              <img class="img-aboutus" src="img/aboutUs3.png" alt="fotoSlide3">
             </div>
              <div >
                 <p class="p-aboutUs">lorem ipsum dolor sit amet, consectetur <br/>adipisicing elit, sed do eiusmod tempor incididunt <br/> labore et dolore magna aliqua. ”</p>
                 <p class="p-aboutUs"> Linda from <a class="a-aboutUs" href="">example.com</a> </p>
             </div>
+            <div>
+                <span class="dot" onclick="positionSlide(1)"></span>
+                <span class="dot" onclick="positionSlide(2)"></span>
+                <span class="dot" onclick="positionSlide(3)"></span>
+            </div>     
         </div>
+            <a  class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a  class="next" onclick="plusSlides(1)">&#10095</a> 
         
       </div>
       <footer>
@@ -156,13 +167,13 @@
         <button class="btn-footer">></button>
         <p class="p-footer-bar">© 2016 Nishant Bazzad</p>
         <div class="footer-bar-img">
-          <img src="img/fb.png" alt="">
-          <img src="img/twitter.png" alt="">
-          <img src="img/composit.png" alt="">
-          <img src="img/in.png" alt="">
+          <img src="img/fb.png" alt="fb">
+          <img src="img/twitter.png" alt="twitter">
+          <img src="img/composit.png" alt="composit">
+          <img src="img/in.png" alt="in">
         </div>
 
       </div>
-    
+      <script src="slide.js"></script>
   </body>
 </html>
