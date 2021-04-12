@@ -87,8 +87,17 @@
     <div class="conteiner">
       <h2 class="testimonials--title"><a name="about">SEE WHAT OTHERS ARE SAYING ABOUT US</a></h2>
       <p class="line"></p>
-      <img class="testimonials--slides" src="testimonials.jpg">
-    </div>
+      <div id="slider-portugal">
+          <img id="my-img" class="slide" alt="">
+      </div>
+  <div class="dots">
+    <span class="dot active" onclick="navigate(0)"></span>
+    <span class="dot" onclick="navigate(1)"></span>
+    <span class="dot" onclick="navigate(2)"></span>
+  </div>
+  <a id="prev" class="btn-left">&#10094</a>
+  <a id="next" class="btn-right">&#10095</a>
+  </div>
   </div>
   <footer class="footer">
     <div class="container">
@@ -148,6 +157,7 @@
     <a href="#"><img src="cp.png"></a>
     <a href="#"><img src="ln.png"></a>
   </div>
+  <script src="alert.js"></script> 
 </body>
 
 </html>
